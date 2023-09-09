@@ -36,7 +36,7 @@
 &kp TAB           &kp Q  &kp W  &kp E     &kp R  &kp T         &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &kp LGUI          &kp A  &kp S  &kp D     &kp F  &kp G         &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LCTRL         &kp Z  &kp X  &kp C     &kp V  &kp B         &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                                &kp LSHFT  MO_TOG(LOWER)       &kp RET    &kp SPACE  MO_TOG(RAISE)  &kp RALT
+                        MO_TOG(LOWER)  &kp LSHFT   &kp RET       &kp SPACE  &kp RALT MO_TOG(RAISE)
             >;
         };
 
@@ -50,8 +50,8 @@
             bindings = <
 &trans     &kp EXCL  &kp AT    &kp POUND  &kp DLLR    &kp PRCNT    &kp BSLH    &kp N7    &kp N8    &kp N9     &kp MINUS  &kp BSPC
 &trans    &kp CARET &kp AMPS  &kp ASTRK  &kp LPAR    &kp RPAR     &kp LBKT    &kp N4    &kp N5    &kp N6     &kp EQUAL  &kp GRAVE
-&trans   &trans    &trans    &trans     &trans      &trans       &kp RBRC    &kp N1    &kp N2    &kp N3     &kp DOT    &trans
-                            &kp LSHFT      &trans       &trans       &trans   &trans    &kp N0
+&trans   &trans    &trans    &trans     &trans      &trans       &kp RBKT    &kp N1    &kp N2    &kp N3     &kp DOT    &trans
+                            &trans      &trans       &trans       &trans    &kp N0  &trans
             >;
         };
 
@@ -66,7 +66,7 @@
 &trans    &kp F1    &kp F2   &kp F3     &kp F4     &trans       &trans  &kp HOME   &kp UP     &kp END   &trans  &kp BSPC
 &trans  &kp F5    &kp F6   &kp F7     &kp F8     &trans       &kp DEL  &kp LEFT   &kp DOWN   &kp RIGHT  &trans  &trans
 &trans  &kp F9    &kp F10  &kp F11    &kp F12    &trans       &trans  &kp PG_UP    &kp LBRC   &kp PG_DN  &trans  &trans
-                             &kp LSHFT  &trans    &trans    &trans    &trans     &kp RALT
+                             &trans  &trans    &trans    &trans    &trans     &trans
             >;
         };
 
