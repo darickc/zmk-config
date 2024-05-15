@@ -10,9 +10,8 @@
 #define LOWER   1
 #define RAISE   2
 #define MO_TOG(layer) &mo_tog layer layer   // Macro to apply momentary-layer-on-hold/toggle-layer-on-tap to a specific layer
-CONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=7
-CONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=7
-/ {
+
+/ {    
          behaviors {
         mo_tog: behavior_mo_tog {
             compatible = "zmk,behavior-hold-tap";
